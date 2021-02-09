@@ -1,0 +1,14 @@
+[package]
+name = "iptvtk"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.2"
+clap = "*"
+m3u = {git = "https://github.com/shnorbluk/m3u", branch = "iptv", features = ["iptv"]}
+#m3u = {path = "../m3u", features=["iptv"]}
+
+
